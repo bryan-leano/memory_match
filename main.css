@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+  }
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 85%;
+    grid-auto-rows: 200px;
+    grid-gap: 1em;
+    margin: 0 auto;
+  }
+  .wrapper > * {
+    border: 1px solid black;
+  }
+
+  .hidden {
+      display: none;
+  }
